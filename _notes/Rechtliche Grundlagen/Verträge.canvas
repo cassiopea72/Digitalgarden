@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"type":"text","text":"VERTRÄGE","id":"c3126a9a733d27ee","x":-140,"y":-60,"width":180,"height":60,"color":"5"},
+		{"type":"text","text":"**einseitig** → z.B. Testament\n**mehrseitig** → alle Verträge, u.a. Eheschließung, Gründung einer Gesellschaft","id":"3ecada45f5a0f0dd","x":160,"y":-240,"width":340,"height":210},
+		{"type":"text","text":"2 übereinstimmende **Willenserklärungen**","id":"cc60e15814d951d3","x":160,"y":0,"width":320,"height":80},
+		{"type":"text","text":"einen Rechtserfolg gerichtete Äußerung (z.B. Kauf eines iPods vs. Einladung zum Schwimmbad)","id":"a176572e01f2f0a6","x":160,"y":136,"width":320,"height":204},
+		{"type":"text","text":"Angebot + Annahme","id":"d936146fc9581def","x":543,"y":-92,"width":277,"height":65},
+		{"type":"text","text":"**empfangsbedürftig** → mit Zugang zum Empfänger wirksam (z.B. Fahrradkauf per Post = wann die Person tatsächlich erreicht)\n**nicht empfangsbedürftig** → in dem Moment wirksam, wann sie abgegeben wird (z.B. Testament)","id":"80f404b14ec1d134","x":542,"y":0,"width":438,"height":300}
+	],
+	"edges":[
+		{"id":"0a0ad075904b62bf","fromNode":"c3126a9a733d27ee","fromSide":"right","toNode":"3ecada45f5a0f0dd","toSide":"left","color":"5"},
+		{"id":"7e04ade27de83b8b","fromNode":"c3126a9a733d27ee","fromSide":"right","toNode":"cc60e15814d951d3","toSide":"left","color":"5"},
+		{"id":"7d027a0dfe91f838","fromNode":"cc60e15814d951d3","fromSide":"right","toNode":"d936146fc9581def","toSide":"left"},
+		{"id":"2f44e2d05f3e660b","fromNode":"cc60e15814d951d3","fromSide":"right","toNode":"80f404b14ec1d134","toSide":"left"},
+		{"id":"a05e177458f69eaf","fromNode":"cc60e15814d951d3","fromSide":"bottom","toNode":"a176572e01f2f0a6","toSide":"top","label":"Def."}
+	]
+}
